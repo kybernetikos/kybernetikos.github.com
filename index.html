@@ -10,6 +10,8 @@
             font-family: sans-serif;
             margin: 0px;
             padding: 0px;
+            background-color: #555;
+            color: white;
         }
         h1 {
             margin: 0px;
@@ -25,12 +27,12 @@
             padding-right: 20px;
             padding-top: 0px;
             text-align: right;
+            font-weight: normal;
             font-style: italic;
             font-size: medium;
         }
         a, a:visited, a:active, a:hover {
-            color: #227;
-            font-weight: bold;
+            color: #ccf;
             text-decoration: none;
         }
         li {
@@ -38,12 +40,13 @@
             margin: 0.1em;
             margin-top: 0.7em;
             padding: 0.1em;
-            border-top: 0.2em dotted #77f;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
         }
         p {
             margin: 0.9em;
+        }
+        section {
+            width: 900px;
+            margin: auto;
         }
 
     </style>
@@ -53,41 +56,43 @@
     <h1>kybernetikos</h1>
     <h2>github projects home</h2>
 
-    <p>This is a list of some of the projects I have on Github.  Some of them are works in progress, others
-    have got about as far as I plan to take them.  You can read my blog <a href="http://kybernetikos.com">here</a>.</p>
-    
-    <ul>
-        <li><a href="http://kybernetikos.github.com/UIT">Decimal Time</a> <p>
-            A clock that works based on
-            proportions of a day.  It shows sunrise, sunset and can connect to google calendar to
-            show your appointments.
-        </p></li>
-        <li><a href="http://kybernetikos.github.com/SolarPosition/">Solar Position Calculator</a> <p>
-            Works out the position of the sun, including sunrise and sunset.  Converted from an algorithm
-            published by the National Renewable Energy Laboratory.
-        </p></li>
-        <li><a href="http://dancing-links.herokuapp.com/">dancing-links</a> <p>
-            A javascript implementation of the dancing links algorithm, used to solve pentonimos and
-            sudoku.
-        </p></li>
-        <li><a href="http://kybernetikos.github.com/SoleMirror/">SoleMirror</a> <p>
-            Simple javascript console that uses codemirror for autocomplete and syntax highlighting.
-        </p></li>
-        <li><a href="http://kybernetikos.github.com/Javathcript">Javathcript</a><p>
-            A toy implementation of lisp in javascript.
-        </p></li>
-        <li><a href="https://github.com/kybernetikos/ScalaTrace/wiki/ScalaTrace">ScalaTrace</a><p>
-            A toy raytracer written when I was learning Scala.
-        </p></li>
-        <li><a href="http://kybernetikos.github.com/fsapi/">fsapi</a> <p>
-            An implementation of promises for the FileSystem API as seen in chrome.
-        </p></li>
-        <li><a href="https://github.com/kybernetikos/yobets">yobets</a> <p>
-            Experimental - a server that you can run in your own browser with a proxy written in node.
-        </p></li>
-        <li><a href="https://github.com/kybernetikos/QuickJetty">QuickJetty</a> <p>
-            A simple jetty server for development.
-        </p></li>
-    </ul>
+    <section>
+        <p>This is a list of some of the projects I have on Github.  Some of them are works in progress, others
+            have got about as far as I plan to take them.  You can read my blog <a href="http://kybernetikos.com">here</a>.</p>
+
+        <ul>
+            <li><a href="http://kybernetikos.github.com/UIT">Decimal Time</a> <p>
+                A clock that works based on
+                proportions of a day.  It shows sunrise, sunset and can connect to google calendar to
+                show your appointments.
+            </p></li>
+            <li><a href="http://kybernetikos.github.com/SolarPosition/">Solar Position Calculator</a> <p>
+                Works out the position of the sun, including sunrise and sunset.  Converted from an algorithm
+                published by the National Renewable Energy Laboratory.
+            </p></li>
+            <li><a href="http://dancing-links.herokuapp.com/">dancing-links</a> <p>
+                A javascript implementation of the dancing links algorithm, used to solve pentonimos and
+                sudoku.
+            </p></li>
+            <li><a href="http://kybernetikos.github.com/SoleMirror/">SoleMirror</a> <p>
+                Simple javascript console that uses codemirror for autocomplete and syntax highlighting.
+            </p></li>
+            <li><a href="http://kybernetikos.github.com/Javathcript">Javathcript</a><p>
+                A toy implementation of lisp in javascript.
+            </p></li>
+            <li><a href="https://github.com/kybernetikos/ScalaTrace/wiki/ScalaTrace">ScalaTrace</a><p>
+                A toy raytracer written when I was learning Scala.
+            </p></li>
+            <li><a href="http://kybernetikos.github.com/fsapi/">fsapi</a> <p>
+                An implementation of promises for the FileSystem API as seen in chrome.
+            </p></li>
+            <li><a href="https://github.com/kybernetikos/yobets">yobets</a> <p>
+                Experimental - a server that you can run in your own browser with a proxy written in node.
+            </p></li>
+            <li><a href="https://github.com/kybernetikos/QuickJetty">QuickJetty</a> <p>
+                A simple jetty server for development.
+            </p></li>
+        </ul>
+    </section>
 </body>
 </html>
